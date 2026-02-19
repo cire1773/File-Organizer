@@ -1,1 +1,16 @@
-/target
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# --- Rust ---
+/rust-version/target/
+**/*.rs.bk
+
+# --- OS & Testing ---
+.DS_Store
+Thumbs.db
+test_zone/
+test_folder/
