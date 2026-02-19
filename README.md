@@ -43,12 +43,12 @@ cargo run --release -- "/path/to/your/messy/folder"
 
 ## 📊 Benchmark Results
 
-*Tested on a directory containing roughly [INSERT NUMBER] files.*
+*Tested on a directory containing roughly 10.000 files.*
 
 | Metric | Python 3 | Rust (Release Build) |
 | :--- | :--- | :--- |
-| **Execution Time** | `[0.000] seconds` | `[0.000] seconds` |
-| **Binary / Script Size** | `~ [X] KB` | `~ [X] MB` |
+| **Execution Time** | `112.953 seconds` | `43.036 seconds` |
+| **Binary / Script Size** | `~ 4 KB` | `~ 25 MB` |
 | **Memory Safety** | Handled by Garbage Collector | Guaranteed by Rust Compiler |
 
 ## 🧠 Key Takeaways
